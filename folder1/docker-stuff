@@ -6,3 +6,5 @@
 docker ps -a --format "{{.ID}}"   or docker ps -a -q
 
 #### Quick delete all containers
+docker ps -a --format "docker rm {{.ID}}" > delall.txt
+cat delall.txt
