@@ -1,1 +1,3 @@
+#### Select all containers by ID
+docker ps -a --format "{{.ID}}"   or docker ps -a -q
 
