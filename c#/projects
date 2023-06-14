@@ -1,0 +1,61 @@
+using System;
+
+namespace MadLibs
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      /*
+      This program is just a dumb little excercise. FBGMN
+      Author: Merk >:^)
+      */
+
+
+      // Let the user know that the program is starting:
+Console.WriteLine("PREPARE THYSELF FOR AN EPIC!!");
+
+      // Give the Mad Lib a title:
+      string title = "Ow!, My BALLS!!";
+
+      Console.WriteLine(title);
+      // Define user input and variables:
+Console.WriteLine("NAME THY HERO");
+string name = Console.ReadLine();
+Console.WriteLine("Enter an Adjective (an adjective is a word that describes a noun, like a colour ('blue'), or feeling ('silly'), texture ('soft').) ");
+string adj1 = Console.ReadLine();
+Console.WriteLine("Try again boner. " + "Enter an Adjective (an adjective is a word that describes a noun, like a colour ('blue'), or feeling ('silly'), texture ('soft').) ");
+string adj2 = Console.ReadLine();
+Console.WriteLine("HAHA boner, once more if you will... " + "Enter an Adjective (an adjective is a word that describes a noun, like a colour ('blue'), or feeling ('silly'), texture ('soft').) ");
+string adj3 = Console.ReadLine();
+Console.WriteLine("Enter a Verb (a verb is a word that represents an action, like 'sit', 'eat', 'sleep') ");
+string verb = Console.ReadLine();
+Console.WriteLine("Enter a Noun (a noun is a person ('girl'), place ('cabin'), or thing ('toaster').) ");
+string noun1 = Console.ReadLine();
+Console.WriteLine("HAHAHA LITTLE PISSBABY, TRY AGAIN " + "Enter a Noun (a noun is a person ('girl'), place ('cabin'), or thing ('toaster').) ");
+string noun2 = Console.ReadLine();
+Console.WriteLine("This lab is literally so fucking aids so get ready for some true stupidity (una estupidez verdadeira)");
+Console.WriteLine("Give me an animal ");
+string animal = Console.ReadLine();
+Console.WriteLine("Give me a food ");
+string food = Console.ReadLine();
+Console.WriteLine("Give me a fruit ");
+string fruit = Console.ReadLine();
+Console.WriteLine("Give me a superhero ");
+string superhero = Console.ReadLine();
+Console.WriteLine("Give me a country ");
+string country = Console.ReadLine();
+Console.WriteLine("Give me a dessert ");
+string dessert = Console.ReadLine();
+Console.WriteLine("Give me a year ");
+string year = Console.ReadLine();
+      // The template for the story:
+
+      string story = $"This morning {name} woke up feeling {adj1}. 'It is going to be a {adj2} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb} to the rhythm of the {noun1}, which made all the {fruit}s very {adj3}. Concerned, {name} texted {superhero}, who flew {name} to {country} and dropped {name} in a puddle of frozen {dessert}. {name} woke up in the year {year}, in a world where {noun2}s ruled the world.";
+
+
+      // Print the story:
+Console.WriteLine(story);
+    }
+  }
+}
